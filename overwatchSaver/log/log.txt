@@ -1,0 +1,7 @@
+backup updated 2017_5_24 of /home/jorge/Escritorio/redes  stored in: /media/jorge/8073-D428
+new backup 2017_5_24 of /home/jorge/Escritorio/c  stored in: /media/jorge/8073-D428
+new backup 2017_5_24 of /home/jorge/Escritorio/documentacion  stored in: /media/jorge/8073-D428
+new backup 2017_5_24 of /home/jorge/Escritorio/G-2363-00-P1  stored in: /media/jorge/8073-D428
+backup attempt failed usb not found
+new backup 2017_5_25 of /home/jorge/Descargas/scripts/python  stored in: /media/jorge/8073-D428
+new backup 2017_5_26 of /home/jorge/Descargas/scripts/python  stored in: /media/jorge/8073-D428

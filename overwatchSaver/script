@@ -1,0 +1,6 @@
+cd backup/
+./backupScript.sh
+cd ..
+make
+./monitoring
+make clean

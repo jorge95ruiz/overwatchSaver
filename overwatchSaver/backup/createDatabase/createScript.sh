@@ -1,0 +1,3 @@
+make 
+./createDatabase
+make clean 

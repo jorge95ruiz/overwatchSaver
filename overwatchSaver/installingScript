@@ -1,0 +1,16 @@
+sudo su
+# setting postgresql in mode trust
+sed -i -e 's/peer/trust/g' /etc/postgresql/*/main/pg_hba.conf
+
+# copying the program into home folder
+cp -ar ../overwatchSaver /etc/overwatchSaver
+
+#creating database and tables
+cd /etc/overwatchSaver/backup/createDatabase/;  ./createScript.sh
+
+
+#installing secript (overwatchSaver/backup/backup when starting
+perl -p -e 's/exit 0\n/cd \/overwachSaver\n.\/script\nexit 0\n/' /etc/rc.local >> /etc/tmpRclocal
+cp /etc/tmpRclocal /etc/test
+rm /etc/tmpRclocal
+
